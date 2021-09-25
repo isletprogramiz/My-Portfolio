@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation */
+h1{
+    color:rgb(87, 7, 38);
+     font-size:40px;
+     margin:auto;
+     text-align:center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sub-programs {
+    text-align: center;
+    font-size: 20px;
+}
+
+hr {
+    margin: 0.5rem 0rem;
+}
+
+.style-non-bullet {
+    list-style: none;
+}
+
+.navigation {
+    background-color: #0b3359;
+    color: white;
+    padding: 2rem;
+}
+
+.navigation .link {
+    color: white;
+    display: inline;
+    padding: 0rem 1rem;
+    text-decoration: none;
+}
+
+
+.list-elements-inline:hover {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+
+.navigation .nav-brand {
+    color: pink;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+/* ......................................... */
+
+/* container */
+#question-container {
+    margin-left: 10px;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+p{
+    padding:5px;
+}
+label{
+    margin-left:20px ;
+}
+#submit-button{
+    color:white;
+    padding:5px;
+    background-color:green;
+    font-size:25px;
+    box-shadow:3px;
+}
+#total-marks{
+    text-align:center;
+    font-size: 35px;
+    
+}
+
+
+
+
+/* footer */
+
+.footer div {
+    background-color: #0b3359;
+    padding: 1rem;
+
+}
+
+.footer-list {
+    padding: 0.5rem;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.links {
+
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+a,
+li {
+    color: white;
+    display: inline;
+}
