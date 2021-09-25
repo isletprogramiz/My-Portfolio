@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash Register Management</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="heading">CASH REGISTER MANAGEMENT</h1>
+        <hr style="width:70% ; margin:auto">
+        <br>
+        <p style="text-align: center;">Enter the bill amount and cash given by the customer and known minimum number of
+            notes to return</p>
+        <h2 class="subheading" > Bill Amount</h2>
+        <input type="text" id="bill-amount">
+        <h2 class="subheading">Cash Given</h2>
+        <input type="text" id="cash-given">
+        <br>
+        <button type="button" id="btn">Check</button>
+        <p id="error-message"></p>
+        <p id="alert-message"></p>
+
+        <table class="table">
+            <caption>
+              Return Change
+            </caption>
+            <tr>
+              <th>No of Notes</th>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+              <th>Note</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+          </table>
+          <br><br>
+          
+            <footer>
+                <p>© | 2021 | Shilpi Kumari</p>
+                <ul class="footer-list">
+                  <li>
+                    <a class="links" href="https://github.com/isletprogramiz" target="_blank"> 
+                      <img src="github.png" alt="github" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="links" href="https://twitter.com/Shilpi25021575?s=09" target="_blank">
+                      <img src="twitter.png" alt="twitter" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="links"
+                      href="https://instagram.com/shilpi.nkk?utm_medium=copy_link"
+                      target="_blank"
+                    >
+                      <img src="insta.png" alt="instagram" />
+                    </a>
+                  </li>
+                </ul>
+          </footer>
+          <br>
+
+          <script src="app.js"></script>
+
+    </div>
+</body>
+
+</html>
