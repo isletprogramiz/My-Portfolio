@@ -5,9 +5,9 @@
 }
 
 #heading{
-    padding:1rem;
+    
     width:100%;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-variant: small-caps;
     font-weight: 600;
@@ -18,7 +18,7 @@
 textarea{
     display: block;
     width: 60%;
-    min-height: 20vh;
+    height: 20vh;
     margin-top: 2rem;
     font-size: large;
     padding:1rem;
@@ -30,9 +30,10 @@ textarea{
 button {
     display: block;
     margin: auto;
-    padding: 10px;
+    padding:2px;
+    height:fit-content;
     font-size: larger;
-    width: 20%;
+    
     border-radius: 4px;
     background-color: rgb(51, 153, 172);
 }
@@ -41,7 +42,7 @@ button {
 #output-area{
     display: block;
     width: 60%;
-    min-height: 20vh;
+    height: 20vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
@@ -55,7 +56,7 @@ button {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 2rem;
+    padding: 0.5rem;
     background-color: rgb(51, 153, 172);
     text-align: center;
 }
