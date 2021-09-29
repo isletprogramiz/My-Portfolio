@@ -33,7 +33,6 @@ button {
     padding:2px;
     height:fit-content;
     font-size: larger;
-    
     border-radius: 4px;
     background-color: rgb(51, 153, 172);
 }
@@ -53,8 +52,8 @@ button {
 }
 
 #footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
     padding: 0.5rem;
     background-color: rgb(51, 153, 172);
