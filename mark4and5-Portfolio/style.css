@@ -3,7 +3,8 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     overflow-x: hidden !important;
 }
 
@@ -36,14 +37,14 @@ body {
 .link-primary {
     background-color: var(--primary-color);
     color: white;
-    
-    
+
+
 }
 
 .link-secondary {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-   
+
 }
 
 
@@ -95,7 +96,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bolder;
-    color:#a6c3fa;
+    color: #a6c3fa;
     font-size: 130%;
 }
 
@@ -175,7 +176,7 @@ hr {
 }
 
 .project-container a {
-    text-align:right;
+    text-align: right;
     padding: 0.5rem;
     border: 1px solid gray;
     text-decoration: none;
@@ -187,9 +188,9 @@ hr {
 
 
 .project-container small {
-    width:100%;
-   
-    
+    width: 100%;
+
+
 }
 
 
@@ -221,16 +222,17 @@ li {
 }
 
 .social-img {
-    width: 50px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     padding: 0.5rem;
 
 }
-#previous-page{
+
+#previous-page {
     text-decoration: none;
-    padding:0.2rem;
-    color:white;
-    background-color: rgb(51, 51, 51);
-    
-    
+    padding: 0.3rem;
+    color: white;
+    background-color: rgb(12, 45, 105);
+
+
 }
