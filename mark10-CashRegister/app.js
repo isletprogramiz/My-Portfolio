@@ -19,9 +19,9 @@ function validateBillAmount(){
           amoutLeft(amountToBeReturned);
         
     }
-      else{
+      else {
         alertMessage.style.display = "block";
-        alertMessage.innerText="invalid amount is entered";
+        alertMessage.innerText="cash given should not be less than bill amount";
       }
    }
    else{
